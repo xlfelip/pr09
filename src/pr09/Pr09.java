@@ -115,7 +115,7 @@ public class Pr09 {
             httpURLConnection.setRequestProperty("Content-Type","application/x-www-form-urlencoded");
             httpURLConnection.setRequestMethod("DELETE");
             httpURLConnection.getResponseCode();
-            System.out.println("Borrado correctamente.");
+            System.out.println("Ha sido eliminado correctamente.");
         } catch (IOException exception) {
         } finally {         
             if (httpURLConnection != null) {
